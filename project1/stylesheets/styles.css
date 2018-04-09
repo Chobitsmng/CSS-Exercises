@@ -1,0 +1,83 @@
+/* Styles.css
+Leslie A Borst
+ITWP 1050 - CSS
+CSS PROJECT1 */
+
+/* main table style */
+table {
+    border-style: solid;
+    border-width: medium;
+    border-color: #336699;
+    background-color: #ff9900;
+}
+
+/* image style */
+img {
+    border-color: black;
+    border-style: double;
+}
+
+/* list item styles */
+li {
+    padding: 0px 15px 0px 0px;
+}
+
+/* class to style the fun facts heading*/
+.funfacts {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #336699;
+    padding: 8px;
+    color: white;
+    text-align: center;
+}
+
+/* class to style the MLB logo */
+.logos {
+    border-style: none;
+}
+
+/* ID to style main content */
+#content {
+    background-color: #336699;
+    padding: 5px;
+    color: white;
+    width: auto;
+}
+
+/* ID to style the wiki credits */
+#wiki {
+    color: #cccccc;
+    font-style: italic;
+}
+
+/* link styles a, link, visited, hover and active */
+
+a {
+    text-decoration: underline;
+    color: black;
+    font-size: 90%
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #336699;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff9900;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 100%;
+}
+
+a:active {
+    color: #ff9900;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
