@@ -1,0 +1,187 @@
+/* CSS for my website */
+/*Homework 3 */
+/*Leslie A Borst */
+/* ITWP 1050 */
+
+/* styling of the body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 50px;
+    text-align: center;
+    padding: 50px 375px 50px 375px;
+    background: url(images/nighttime.png) scroll;
+    color: black;
+
+    /*cursor style */
+    cursor: url(images/trooper.png) 10 10, pointer;
+}
+
+body p {
+    text-align: justify;
+    line-height: 1.5em;
+    background: rgba(255, 255, 255, .5);
+    padding: 10px;
+    font-weight: bold;
+    text-indent: 2em;
+    
+}
+/* hyperlink styles */
+
+a {
+    text-decoration: none;
+    color: orange;
+}
+a:link {
+    color: orange;
+}
+
+a:visited {
+    color: orange;
+    text-decoration: line-through;
+}
+
+a:hover {
+    color: darkcyan;
+    text-decoration: line-through;
+}
+
+/* web font */
+@font-face {
+    font-family: myheadingfont;
+    src: url(KaushanScript-Regular.otf);
+}
+
+/* font for the main header */
+h1 {
+    font-family: 'myheadingfont', Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    word-spacing: .10em;
+    line-height: 2em;
+    text-shadow: 2px 2px white;
+}
+
+/*font style for the rest of the headers */
+h2, h3, h4 {
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    word-spacing: .10em;
+    line-height: 2em;
+    color:white;
+}
+
+
+/* style only em tags in paragraphs */
+p em {
+    font-weight: bolder;
+    text-shadow: 1px 1px white;
+}
+
+/* styling of the header */
+.heading{
+    text-align: center;
+    color: magenta;
+}
+header img {
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    width: 600px;
+    height: auto;
+}
+    
+/* main content and box(card) styling (background single declaration*/
+#content {   
+    background: url(images/comet.png) repeat-y right;
+    width: 725px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+}
+.card {
+    
+    padding: 10px;
+    margin: 25px;
+    width: 650px;
+    text-align: justify;
+    border-radius: 10px;
+}
+
+/* List Styles */
+
+ul {
+    list-style: circle outside;
+    background-color: rgba(255, 255, 255, .5);
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-family: 'myheadingfont', Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+}
+
+ol {
+    list-style: none url(images/x-wing.png) inside;
+    background-color: rgba(255, 255, 255, .5);
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    font-family: 'myheadingfont', Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+}
+/* Table Styles */
+table {
+    text-align: center;
+    table-layout: auto;
+    border-spacing: 5px;
+    border-collapse: separate;
+}
+
+th {
+    padding: 5px 100px 5px 100px;
+    background-color: rgba(255, 255, 255, .5);
+    font-variant: small-caps;
+    border: 1px solid rgb(200, 200, 150);
+}
+
+td {
+    padding: 5px 100px 5px 100px;
+    background-color: rgba(255, 255, 255, .5);
+    border: 1px solid rgb(200, 200, 150);
+}
+
+
+/* Adding the quote style */
+* {
+    quotes: '"' '"';
+}
+
+/* Styling for the footer */
+#footerimgr {
+    float: right;
+    height: 100px;
+}
+
+#footerimgl {
+    float: left;
+    height: 100px;
+}
+
+.footerinfo {
+    text-align: center;
+    color: magenta;
+    font-style: italic;
+}
+
+/* Adding a dynamic image */
+
+footer p:before {
+    content: url('images/fett.png');
+}
+
+footer p:after {
+    content: url('images/fett.png');
+}
+
+footer p {
+    text-align: center;
+}
